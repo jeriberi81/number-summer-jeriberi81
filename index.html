@@ -8,11 +8,20 @@
 </head>
 <body>
   <script src="./scripts.js"></script>
-<form>
-  Enter Starting Number:
-  <input type = "text" name="startNumber"><br>
+<form action="#">
+  <div>
+    Enter Starting Number:
+    <label for="minimum">Minimum Value</label>
+    <input type="number" id="minimum" />
+  </div>
   Enter Ending Number:
-  <input type = "text" name="endNumber">
+  <div>
+    <label for="maximum">Maximum Value</label>
+    <input type="number" id="maximum">
+  </div>
+
+  <input type="submit" value="Sum!" />
+<output></output>
 </form>
 </body>
 </html>
